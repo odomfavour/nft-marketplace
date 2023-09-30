@@ -26,11 +26,11 @@ const Nav = () => {
           <h3 className="font-SpaceMono font-bold text-xl">NFT Marketplace</h3>
         </div>
 
-        <div className="lg:hidden cursor-pointer" onClick={toggleHamburger}>
+        <div className={`${toggle ? 'rotate-180' : 'rotate-0'} lg:hidden cursor-pointer`} onClick={toggleHamburger}>
           <img src={Ham} alt="" />
         </div>
 
-        <div className={`${toggle ? 'visible' : 'invisible'} font-WorkSans absolute top-[4rem] right-0 bg-[#2b2b2b] w-full pt-4 pb-10 px-7 lg:visible lg:static lg:flex lg:items-center lg:gap-6 lg:justify-end lg:p-0 lg:w-auto max-[360px]:px-2`}>
+        <div className={`${toggle ? 'visible' : 'invisible'} font-WorkSans absolute top-[4rem] right-0 bg-[#2b2b2b] w-full pt-4 pb-10 px-7 lg:visible lg:static lg:flex lg:items-center lg:gap-6 lg:justify-end lg:p-0 lg:w-auto max-[360px]:px-2 md:border-b-[1px] border-gray-400`}>
           <ul className="lg:flex gap-x-4">
             {navLinks.map((navLink) => {
               const {id, url, name} = navLink;
