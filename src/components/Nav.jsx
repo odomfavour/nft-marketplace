@@ -41,10 +41,10 @@ const Nav = () => {
               )
             })}
           </ul>
-          <div className="flex gap-x-2 items-center bg-[#a259ff] hover:bg-[#9353e5] py-3 px-5 rounded-xl w-3/4 md:w-1/3 lg:w-auto max-[400px]:w-full">
+          <button className="flex gap-x-2 items-center bg-[#a259ff] hover:bg-[#9353e5] py-3 px-5 rounded-xl w-3/4 md:w-1/3 lg:w-auto max-[400px]:w-full" onClick={disableHamburger}>
             <img className="h-4" src={User} alt="" />
             <p className="text-xs font-semibold">Sign Up</p>
-          </div>
+          </button>
         </div>
       </nav>
     </header>
