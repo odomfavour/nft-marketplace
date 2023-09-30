@@ -9,9 +9,13 @@ const Nav = () => {
 
   const [toggle, setToggle] = useState(false)
 
-  const toggleHam = () => {
+  const toggleHamburger = () => {
     setToggle(!toggle)
     console.log(toggle)
+  }
+
+  const disableHamburger = () => {
+    setToggle(false);
   }
 
   return(
@@ -22,7 +26,7 @@ const Nav = () => {
           <h3 className="font-SpaceMono font-bold text-xl">NFT Marketplace</h3>
         </div>
 
-        <div className="lg:hidden cursor-pointer" onClick={toggleHam}>
+        <div className="lg:hidden cursor-pointer" onClick={toggleHamburger}>
           <img src={Ham} alt="" />
         </div>
 
@@ -32,7 +36,7 @@ const Nav = () => {
               const {id, url, name} = navLink;
               return (
                 <li className="text-sm hover:text-[#a259ff] transition ease-in-out delay-70 my-6" key={id}>
-                  <Link className="py-3" to={url}>{name}</Link>
+                  <Link className="py-3" to={url} onClick={disableHamburger}>{name}</Link>
                 </li>
               )
             })}
