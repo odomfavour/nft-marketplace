@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'SpaceMono': ['"Space Mono"', 'sans-serif'],
+      'WorkSans': ['"Work Sans"', 'serif'] // Ensure fonts with spaces have " " surrounding it.
+    },
   },
   plugins: [],
 }
