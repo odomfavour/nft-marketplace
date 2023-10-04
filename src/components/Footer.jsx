@@ -10,8 +10,8 @@ import FormCTA from "./FormCTA";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2b2b2b] px-6 text-white font-WorkSans">
-      <div className="xl:w-11/12 xl:mx-auto">
+    <footer className="bg-[#3b3b3b] px-6 text-white font-WorkSans">
+      <div className="xl:w-11/12 xl:mx-auto pt-8">
         <div className="pb-8 border-b-[2px] border-gray-500 lg:grid lg:grid-cols-2 xl:grid-cols-3">
           <div className="mb-8">
             <div className="mr-auto flex items-center gap-x-3 mb-6">
