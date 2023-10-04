@@ -13,4 +13,8 @@
     .input-icon {
         @apply absolute inset-y-0 left-0 flex justify-between items-center pl-3.5 pointer-events-none;
     }
+
+    .wallet-btn {
+        @apply pr-5 pl-6 lg:pl-10 w-full border bg-[#3B3B3B] border-[#A259FF] rounded-[20px] h-[72px] hover:bg-[#3B3B3B] focus:ring-4 focus:ring-[#A259FF] focus:outline-none;
+    }
 }

@@ -1,7 +1,7 @@
 import propTypes from 'prop-types';
 import nftAccount from '../../assets/images/create-account.png';
 import { useLocation } from 'react-router-dom';
-import nftWallet from '../../assets/nft.svg';
+import nftWallet from '../../assets/images/connect-wallet.png';
 
 
 const AuthLayout = ({ children }) => {
