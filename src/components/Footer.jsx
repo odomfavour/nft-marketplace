@@ -10,7 +10,7 @@ import FormCTA from "./FormCTA";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2b2b2b] px-6 text-white font-WorkSans">
+    <footer className="bg-[#2b2b2b] px-6 text-white font-WorkSans py-[2.5rem] md:pb-[5rem]">
       <div className="xl:w-11/12 xl:mx-auto">
         <div className="pb-8 border-b-[2px] border-gray-500 lg:grid lg:grid-cols-2 xl:grid-cols-3">
           <div className="mb-8">
@@ -50,7 +50,7 @@ const Footer = () => {
             <FormCTA text="Enter Your Email Address" />
           </div>
         </div>
-        <p className="mt-5 pb-8 text-sm text-gray-400">&copy; NFT Market. Use this template freely.</p>
+        <p className="mt-5 text-sm text-gray-400">&copy; NFT Market. Use this template freely.</p>
       </div>
     </footer>
   )
