@@ -1,5 +1,3 @@
-import Nav from "../components/Nav";
-import Footer from "../components/Footer";
 import HowItWork from "../components/HowItWork";
 import Mushrooms from "../components/Mushrooms";
 import DiscoverNFTs from "../components/DiscoverNFTs";
@@ -8,12 +6,12 @@ import TopCreators from "../components/TopCreators";
 import TrendingCollections from "../components/TrendingCollections";
 import Subscribe from "../components/Subscribe";
 import Hero from "../components/Hero";
+import MainLayout from "../components/layout/MainLayout";
 
 const Home = () => {
   return (
     <>
-      <Nav />
-      <main className="bg-darkBrown text-white">
+      <MainLayout>
         <Hero />
         <TrendingCollections />
         <TopCreators />
@@ -22,8 +20,7 @@ const Home = () => {
         <Mushrooms />
         <HowItWork />
         <Subscribe />
-      </main>
-      <Footer />
+      </MainLayout>
     </>
   );
 };

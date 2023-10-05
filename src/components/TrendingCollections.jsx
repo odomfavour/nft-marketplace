@@ -2,7 +2,7 @@ import { trendingCollections } from "../utils/contents";
 
 const TrendingCollections = () => {
   return (
-    <section className="lg:py-[5rem] py-[2.5rem]">
+    <section className="bg-darkBrown text-white lg:py-[5rem] py-[2.5rem]">
       <div className="lg:w-10/12 w-11/12 mx-auto font-WorkSans">
         <div className="mb-[2.5rem] lg:mb-[3.75rem]">
           <h2 className="text-[1.75rem] lg:text-[2.375rem] font-semibold leading-[140%] lg:leading-[120%] mb-[0.62rem] ">

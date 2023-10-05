@@ -2,7 +2,7 @@ import { roadmap } from "../utils/contents";
 
 const HowItWork = () => {
   return (
-    <section className="lg:py-[5rem] py-[2.5rem] font-WorkSans">
+    <section className="bg-darkBrown text-white lg:py-[5rem] py-[2.5rem] font-WorkSans">
       <div className="lg:w-10/12 w-11/12 mx-auto">
         <div className="mb-[2.5rem] lg:mb-[3rem]">
           <h2 className="text-[1.75rem] lg:text-[2.375rem] mb-[0.62rem] font-semibold leading-[140%] lg:leading-[120%]">

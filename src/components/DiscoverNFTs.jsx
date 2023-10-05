@@ -4,7 +4,7 @@ import { NFTCollection } from "../utils/contents";
 
 const DiscoverNFTs = () => {
   return (
-    <section className="pt-[2.5rem] pb-[3.75rem] lg:pt-[5rem] md:pb-[5rem]">
+    <section className="bg-darkBrown text-white pt-[2.5rem] pb-[3.75rem] lg:pt-[5rem] md:pb-[5rem]">
       <div className="lg:w-10/12 w-11/12 mx-auto relative">
         <div className="font-WorkSans">
           <h2 className="text-[1.75rem] lg:text-[2.375rem] font-semibold leading-[140%] lg:leading-[120%] mb-[0.62rem]">

@@ -5,7 +5,7 @@ import animalKidAvatar from "../assets/images/home/animalKidAvatar.png";
 
 const Hero = () => {
   return (
-    <section className="md:py-[5rem] py-[2.5rem]">
+    <section className="bg-darkBrown text-white md:py-[5rem] py-[2.5rem]">
       <div className="lg:w-10/12 w-11/12 mx-auto relative font-WorkSans">
         <div className="flex flex-col gap-[2.5rem] md:gap-[1.25rem] md:pr-[1.88rem] relative">
           <div className="md:w-1/2 ">

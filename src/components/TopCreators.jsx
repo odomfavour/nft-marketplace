@@ -4,7 +4,7 @@ import rocketLaunch from "../assets/images/home/rocketLaunch.svg";
 
 const TopCreators = () => {
   return (
-    <section className="py-[2.5rem] xl:py-[5rem]">
+    <section className="bg-darkBrown text-white py-[2.5rem] xl:py-[5rem]">
       <div className="lg:w-10/12 w-11/12 mx-auto relative font-WorkSans">
         <div className="text-white">
           <h2 className="text-[1.75rem] xl:text-[2.375rem] font-semibold mb-[0.62rem] leading-[140%] xl:leading-[120%]">

@@ -3,7 +3,7 @@ import envelope from "../assets/images/home/envelope.svg";
 
 const Subscribe = () => {
   return (
-    <section className="py-[2.5rem] md:pb-[5rem] font-WorkSans">
+    <section className="bg-darkBrown text-white py-[2.5rem] md:pb-[5rem] font-WorkSans">
       <div className="w-11/12 lg:w-10/12 mx-auto flex flex-col md:flex-row lg:items-center lg:justify-between md:bg-primaryBrown lg:p-[3.75rem] md:py-[2.5rem] md:px-[1.88rem] lg:gap-[5rem] md:gap-[1.88rem] rounded-[1.25rem]">
         <div className="mb-[1.88rem] lg:mb-[0] md:w-1/2">
           <img
