@@ -30,7 +30,7 @@ const Nav = () => {
           <img src={Ham} alt="" />
         </div>
 
-        <div className={`${toggle ? 'visible' : 'invisible'} font-WorkSans absolute top-[4rem] right-0 bg-[#2b2b2b] w-full pt-4 pb-10 px-7 lg:visible lg:static lg:flex lg:items-center lg:gap-6 lg:justify-end lg:p-0 lg:w-auto max-[360px]:px-2 md:border-b-[1px] border-gray-400`}>
+        <div className={`${toggle ? 'visible' : 'invisible'} font-WorkSans absolute top-[4rem] right-0 bg-[#2b2b2b] w-full pt-4 pb-10 px-7 lg:visible lg:static lg:flex lg:items-center lg:gap-6 lg:justify-end lg:p-0 lg:w-auto max-[360px]:px-2 md:border-b-[1px] lg:border-b-0 border-gray-400`}>
           <ul className="lg:flex gap-x-4">
             {navLinks.map((navLink) => {
               const {id, url, name} = navLink;
