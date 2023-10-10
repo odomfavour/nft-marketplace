@@ -1,5 +1,7 @@
 import MainLayout from "../components/layout/MainLayout";
 import { useLocation } from "react-router-dom";
+
+import ArtistHero from "../components/artist-ui/ArtistHero";
 const ArtistPage = () => {
   // use useLocation read data form Checkout page
   const location = useLocation();
@@ -7,9 +9,7 @@ const ArtistPage = () => {
 
   return (
     <MainLayout>
-      {/* Hello World
-      <div> {creator.username}</div>
-      <img src={creator.profilePicture} alt="" /> */}
+      <ArtistHero />
     </MainLayout>
   );
 };
