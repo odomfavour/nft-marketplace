@@ -4,7 +4,7 @@ const ArtistHero = () => {
   return (
     <div className=" bg-darkBrown">
       <div
-        className="  bg-no-repeat  bg-center md:bg-auto h-80"
+        className="  bg-no-repeat  bg-center md:bg-auto lg:bg-cover h-80"
         style={{
           backgroundImage: `url(${ArtistPageHero})`,
           //   backgroundSize: "100% 100%",
