@@ -1,6 +1,3 @@
-// import kre from "../assets/images/home/spaceWalking.png";
-// import creator4 from '../assets/images/home/creator4.png'
-
 export const date = ["Today", "This Week", "This Month", "All Time"];
 
 export const tableHead = ["#", "Artist", "Change", "NFTs Sold", "Volume"];
@@ -12,7 +9,6 @@ export const artistTodayData = [
     change: 1.41,
     nftsSold: 602,
     volume: 12.4,
-    // img: "../assets/Discord.svg",
     img: "../../src/assets/images/rankings/Jaydon.png",
   },
   {
@@ -217,7 +213,6 @@ export const artistThisWeekData = [
     nftsSold: 602,
     volume: 12.4,
     img: "../../src/assets/images/rankings/Philip.png",
-
   },
   {
     id: 7,
@@ -234,7 +229,6 @@ export const artistThisWeekData = [
     nftsSold: 602,
     volume: 12.4,
     img: "../../src/assets/images/rankings/Kianna_Donin.png",
-
   },
   {
     id: 9,

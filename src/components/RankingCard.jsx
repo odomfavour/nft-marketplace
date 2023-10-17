@@ -3,26 +3,6 @@ import propTypes from "prop-types";
 const RankingCard = ({ data }) => {
   return (
     <>
-      {/* <div className={`grid grid-cols-${tableHead.length}`}> */}
-      {/* <div className="grid grid-cols-12">
-        {tableHead.map((item, idx) => {
-          return (
-            <div
-              key={idx}
-              className={`grid ${
-                idx === 0
-                  ? "col-span- place-content-star pl-8"
-                  : idx === 1
-                  ? "gap-16 col-span-4 place-content-star"
-                  : "col-span- place-content-star"
-              }`}
-            >
-              <div className="">{item}</div>
-            </div>
-          );
-        })}
-      </div> */}
-
       <div className="flex px-5 py-2 mt-10 border-[1px] rounded-3xl text-sm md:text-base font-SpaceMono opacity-50">
         <span className="ml-[10px] mr-[16px]">#</span>
         <div className="w-full grid grid-cols-5">
@@ -38,7 +18,6 @@ const RankingCard = ({ data }) => {
       <div>
         {data.map((each) => {
           const { id, name, change, nftsSold, volume, img } = each;
-          // console.log(name)
           return (
             <div
               key={id}

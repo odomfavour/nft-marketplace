@@ -1,4 +1,3 @@
-// import React from "react";
 import MainLayout from "../components/layout/MainLayout";
 import RankingHeader from "../components/RankingHeader";
 import RankingTable from "../components/RankingTable";

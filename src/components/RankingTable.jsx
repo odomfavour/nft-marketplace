@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-// import { date } from "../utils/RankingData";
 import RankingCard from "./RankingCard";
 import {
   date,
@@ -31,7 +30,6 @@ const RankingTable = () => {
 
   const dataItems = isSmallScreen ? ["1d", "7d", "30d", "All Time"] : date;
 
-  console.log(dataItems[activeIndex]);
   const getDataFromActiveTab = () => {
     const currentTab = dataItems[activeIndex];
 
