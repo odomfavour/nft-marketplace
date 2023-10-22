@@ -10,7 +10,7 @@ const Nft = () => {
     <>
         <MainLayout>
           {/* hero section */}
-            <section className="bg-[url('/src/assets/images/nft/nft-hero-mobile.png')] h-[20rem] md:h-[26.25rem] lg:bg-[url('/src/assets/images/nft/nft-hero.png')] bg-no-repeat bg-cover bg-center lg:h-screen">
+            <section className="bg-[url('/src/assets/images/nft/nft-hero-mobile.png')] h-[20rem] md:h-[26.25rem]  lg:h-[35rem] lg:bg-[url('/src/assets/images/nft/nft-hero.png')] bg-no-repeat bg-cover bg-center">
             </section>
 
             {/* Full desciption */}
@@ -88,13 +88,13 @@ const Nft = () => {
                 </button>
 
                 {/* NFT Cards */}
-                <div className="grid max-[641px]:mt-[1.88rem] max-[641px]:pb-[5.63rem] md:pb-[0] mt-[3.75rem] gap-[1.88rem]  sm:gap-y-[3.75rem]  max-[500px]:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:pb-[5rem]  ">
+                <div className=" grid  max-[500px]:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-[641px]:mt-[1.88rem] max-[641px]:pb-[5.63rem] md:pb-[0] mt-[3.75rem] gap-[1.88rem]  sm:gap-y-[3.75rem]  lg:pb-[5rem]  ">
                     {
                       nft_cards.map(nft_card => {
-                        {console.log(nft_card)}
+                        // {console.log(nft_card)}
                         return (
-                          <div className="h-[29.3125rem]  " key={nft_card.id}>
-                              <NFTCard  nft_card={nft_card} />
+                          <div className="bg-[#3B3B3B] rounded-b-[1.25rem] pb-[1.56rem]  " key={nft_card.id}>
+                              <NFTCard className='h-100 ' nft_card={nft_card} />
                           </div>
                         
                         )
