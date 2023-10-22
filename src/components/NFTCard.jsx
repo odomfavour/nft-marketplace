@@ -1,15 +1,15 @@
 import AC from '../assets/images/nft/Asset 12 2.svg'
 
-const NFTCard = ({nft_card}) => {
+const NFTCard = ({ nft_card }) => {
   return (
     <>
 
-        <div className=" h-[100%] mb-[1.88rem] w-[19.7rem] sm:max-w-[20.7rem] sm:mb-0">
+        <div className=" h-[100%] mb-[1.88rem] sm:mb-0">
           <div className=" w-full">
-            <img src={nft_card.src} alt=" nft card" className=" h-[18.4375rem] w-full " />
+            <img src={nft_card.src} alt={nft_card.cardName +  " card"} className=" h-[18.4375rem] w-full " />
           </div>
 
-          <div className="lg:!h-[214.86px] bg-[#3B3B3B] rounded-b-[1.25rem] px-[1.88rem] pt-[1.25rem] pb-[1.56rem]  ">
+          <div className=" bg-[#3B3B3B] rounded-b-[1.25rem] px-[1.88rem] pt-[1.25rem] pb-[1.56rem]  ">
             <h5 className=" text-white  capitalize font-WorkSans font-semibold lg:text-[1.375rem]">
             {nft_card.cardName}
             </h5>
