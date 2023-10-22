@@ -7,17 +7,18 @@ import Globe from "../../assets/Globe.svg";
 
 const ArtistInfo = ({ creator }) => {
   return (
-    <div className=" bg-darkBrown px-10 pb-6 ">
-      <div className="  flex items-start justify-between flex-col md:flex-row text-white  py-8">
-        <h2 className=" font-semibold text-2xl md:text-3xl lg:text-4xl ">
+    <div className=" bg-darkBrown px-10 pb-5 ">
+      <div className="  md:flex items-start justify-between text-white  py-8">
+        <h2 className=" font-semibold text-xl md:text-3xl lg:text-4xl ">
           {creator.username}
         </h2>
         <div className="  sm:flex gap-4 pt-5 md:pt-0">
-          <button className="flex gap-x-2 items-center w-full  mb-5 sm:mb-0 bg-primaryPurple hover:bg-primaryPurple/80 py-3 px-5 rounded-xl ">
+          <button className="flex gap-x-2 items-center w-full sm:w-fit  mb-5 sm:mb-0 bg-primaryPurple hover:bg-primaryPurple/80 py-3 px-5 rounded-xl ">
             <CopyIcon />
             <p className="text-xs font-semibold">0xc0E3...B79C</p>
           </button>
-          <button className="flex gap-x-2 items-center w-full  border-2 border-primaryPurple  py-3 px-5 rounded-xl ">
+
+          <button className="flex gap-x-2 items-center w-full sm:w-fit border-2 border-primaryPurple  py-3 px-5 rounded-xl ">
             <PlusIcon />
             <p className="text-xs font-semibold">Follow</p>
           </button>
@@ -25,18 +26,18 @@ const ArtistInfo = ({ creator }) => {
       </div>
       <div className=" flex gap-8 text-white">
         <div>
-          <h4 className=" font-bold text-lg ">250k+</h4>
-          <p className=" text-base font-WorkSans"> Volume</p>
+          <h4 className=" font-bold text-base sm:text-lg ">250k+</h4>
+          <p className=" text-sm sm:text-base font-WorkSans"> Volume</p>
         </div>
         <div>
-          <h4 className=" font-bold text-lg ">50+</h4>
+          <h4 className=" font-bold text-base sm:text-lg ">50+</h4>
 
-          <p className=" text-base font-WorkSans"> NFTs Sold</p>
+          <p className=" text-sm sm:text-base font-WorkSans"> NFTs Sold</p>
         </div>
         <div>
-          <h4 className=" font-bold text-lg ">3000+</h4>
+          <h4 className=" font-bold text-base sm:text-lg ">3000+</h4>
 
-          <p className=" text-base font-WorkSans"> Followers </p>
+          <p className=" text-sm sm:text-base font-WorkSans"> Followers </p>
         </div>
       </div>
       <div className=" my-5">
