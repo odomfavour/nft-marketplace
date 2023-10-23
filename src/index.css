@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
-    .input-primary {
-        @apply h-[46px] border border-[#858584] font-normal text-[#2B2B2B] pl-10 p-2.5 text-[16px] 
+  .input-primary {
+    @apply h-[46px] border border-[#858584] font-normal text-[#2B2B2B] pl-10 p-2.5 text-[16px] 
         rounded-[20px] placeholder-[#2B2B2B] focus:ring-[#858584] focus:border-[#858584] block w-full py-[16px] px-[20px];
-    }
+  }
 
-    .input-icon {
-        @apply absolute inset-y-0 left-0 flex justify-between items-center pl-3.5 pointer-events-none;
-    }
+  .input-icon {
+    @apply absolute inset-y-0 left-0 flex justify-between items-center pl-3.5 pointer-events-none;
+  }
 
-    .wallet-btn {
-        @apply pr-5 pl-6 lg:pl-10 w-full border bg-[#3B3B3B] border-[#A259FF] rounded-[20px] h-[72px] hover:bg-[#3B3B3B] focus:ring-4 focus:ring-[#A259FF] focus:outline-none;
-    }
+  .wallet-btn {
+    @apply pr-5 pl-6 lg:pl-10 w-full border bg-[#3B3B3B] border-[#A259FF] rounded-[20px] h-[72px] hover:bg-[#3B3B3B] focus:ring-4 focus:ring-[#A259FF] focus:outline-none;
+  }
 }
